@@ -10,9 +10,10 @@ body {
 }
 
 .root {
-    height: 300px;
-    width: 800px;
+    pointer-events: auto;
     margin: auto;
+    z-index: 6;
+    position: relative;
 }
 
 *,
